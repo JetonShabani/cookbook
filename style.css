@@ -1,5 +1,8 @@
 
-
+html {
+    scroll-behavior: smooth;
+    
+  }
 
 body{
     
@@ -16,32 +19,30 @@ body{
     
 }
 
-
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .navbar-nav{
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: center;
     
 
 }
 
-.d-flex{
-    width: 50%;
-    
-}
-.container-fluid .one{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.container-fluid{
-    width: 100%0;
+.navbar, .container-fluid{
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
 }
+
+
+
+
+
+
+
 
 .card{
     margin-top: 20%;
@@ -122,6 +123,36 @@ td{
 }
 
 
-.navbar-brand{
-    
+
+
+
+
+@media screen and (max-width: 950px)  {
+
+  
+    .container-fluid{
+       display: flex;
+       flex-direction: row-reverse;
+    }
+
+      
 }
+
+    @media (max-width: 770px) {
+        .navbar-nav{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    
+    
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 800px) {
+        
+    }
