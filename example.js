@@ -5,7 +5,7 @@ const showAlert = () =>
 
 
 const showContact = () => 
-    alert('we are still working for that for info contact Jeton!');
+    alert('hey there i´m Jeton for mor info see the Portfolio');
 
 
 
