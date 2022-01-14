@@ -10,7 +10,6 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    
     align-items: center;
     justify-content: center;
     align-items: center;
@@ -68,7 +67,7 @@ a[data-toggle="collapse"] {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background-image: linear-gradient(rgb(117, 117, 243),violet);
 }
 
 p {
